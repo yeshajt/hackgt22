@@ -6,7 +6,7 @@ app = express();
 connectDB();
 
 app.get("/", (req, res) => res.send("API Sending"));
-
+app.use(express.json());
 app.use("/api/patient", require("./routes/api/patient"));
 app.use("/api/admin", require("./routes/api/admin"));
 
