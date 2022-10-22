@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+//here's where we include all our components
+import Header from "./components/Common/Header";
+
 function App() {
   return (
     <div className="App">
