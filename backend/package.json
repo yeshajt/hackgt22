@@ -4,7 +4,8 @@
   "description": "backend for lifeline",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "server": "nodemon index"
   },
   "author": "syrup",
   "license": "ISC",
