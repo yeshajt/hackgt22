@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for lifeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "syrup",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.6.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20"
+  }
+}
