@@ -4,7 +4,7 @@ app = express();
 
 app.get("/", (req, res) => res.send("API Sending"));
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 
 app.get("/api", (req, res) => {
     res.json({ message: "Hello from server!" });
