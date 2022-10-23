@@ -12,4 +12,8 @@ app.use("/api/admin", require("./routes/api/admin"));
 
 const PORT = process.env.PORT || 8080;
 
+app.get("/api", (req, res) => {
+    res.json({ message: "Hello from server!" });
+  });
+
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
